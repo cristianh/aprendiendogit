@@ -24,7 +24,7 @@ export default {
   },
   data(){
     return{
-      textoopcion1:'home'
+      textoopcion1:''
     }
   },
   methods:{
