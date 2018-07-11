@@ -37,7 +37,7 @@
       <b-form-group id="exampleGroup4">
         <b-form-checkbox-group v-model="form.checked" id="exampleChecks">
           <b-form-checkbox value="me">Check me out</b-form-checkbox>
-          <b-form-checkbox value="that">Check that out</b-form-checkbox>
+          <b-form-checkbox value="that">chao</b-form-checkbox>
         </b-form-checkbox-group>
       </b-form-group>
       <b-button type="submit" variant="primary">Submit</b-button>
