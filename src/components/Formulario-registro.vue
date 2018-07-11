@@ -40,7 +40,7 @@
           <b-form-checkbox value="that">chao</b-form-checkbox>
         </b-form-checkbox-group>
       </b-form-group>
-      <b-button type="submit" variant="primary">Submit</b-button>
+      <b-button type="submit" variant="primary">Enviar</b-button>
       <b-button type="reset" variant="danger">Reset</b-button>
     </b-form>
   </vs-col>
