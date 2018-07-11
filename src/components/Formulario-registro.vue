@@ -16,8 +16,8 @@
         </b-form-input>
       </b-form-group>
       <b-form-group id="exampleInputGroup2"
-                    label="Your Name:"
-                    label-for="exampleInput2">
+                    label="Descripcion:"
+                    label-for="Descripcion del evento">
         <b-form-input id="exampleInput2"
                       type="text"
                       v-model="form.name"
@@ -45,7 +45,7 @@
     </b-form>
   </vs-col>
 </vs-row>
-    
+    {{$data}}
   </div>
 </template>
 
