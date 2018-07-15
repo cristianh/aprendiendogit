@@ -1,6 +1,16 @@
 <template>
   <div id="app">
-    <Menu :nombre="textoopcion1"></Menu>
+    <Botones styleboton="btn btn-info">
+      <template slot="boton1">
+        Boton1
+      </template>
+      <template slot="boton2">
+        Boton2
+      </template>
+      <template slot="boton3">
+        Boton3
+      </template>
+    </Botones>
     <router-view></router-view>
   </div>
 </template>
@@ -8,13 +18,15 @@
 <script>
 import Formulario from './components/Formulario-registro.vue'
 import Menu from './components/Menu.vue'
+import Botones from './components/Botones.vue'
 
 
 export default {
   name: 'app',
   components: {
     Formulario,
-    Menu
+    Menu,
+    Botones
   }
 }
 </script>
